@@ -19,7 +19,7 @@ import com.mvc.service.UserService;
 public class UserController {
 	@Autowired
 	UserService userservice;
-
+//update user
 	@RequestMapping("updateuser")
 	ModelAndView getupdateById(@RequestParam int id) {
 
